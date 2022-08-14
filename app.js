@@ -1,6 +1,6 @@
 'use strict';
 
-// первая (перенести данные из одного массива во второй)
+// первая (перенести данные из одного массива во второй);
 const arr = [3, 5, 8, 16, 20, 23, 50];
 const result = [];
 
@@ -9,7 +9,7 @@ for (let i = 0; i < arr.langth; i++ ) {
 }
 console.log(result);
 
-// вторая (изменить данные массива)
+// вторая (изменить данные массива. Число (*2), к строке добавиьт (- done));
 const data = [5, 10, 'Shopping', 20, 'Homework'];
 for (let i = 0; i < data.length; i++) {
   if (typeof(data[i]) === 'number') {
@@ -20,7 +20,7 @@ for (let i = 0; i < data.length; i++) {
 }
 console.log(data);
 
-// третья (вывести массив наоборот)
+// третья (вывести массив наоборот);
 const dataElse = [5, 10, 'Shopping', 20, 'Homework'];
 const resultData = [];
 
