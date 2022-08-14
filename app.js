@@ -1,106 +1,3 @@
-'use strict';
-
-// const hamburger = 5;
-// const fries = null;
-
-// if (hamburger && fries) {
-//     console.log('я сыт!!');
-// } 
-
-
-// const hamburger = 3;
-// const fries = 1;
-// const cola = 1;
-
-//  console.log(hamburger === 3 && cola && fries);
-
-//  console.log(1 && 0);
-//  console.log(1 && 5);
-//  console.log(null && 5);
-//  console.log(0 && 'qwee');
-
-// if (hamburger === 3 && cola === 1 && fries) {
-//   console.log('все сыты');
-// } else {
-//   console.log('мы уходим');
-// } 
-
-// const hamburger = 3;
-// const fries = 3;
-// const cola = 0;
-// const nuggets = 2;
-
-// if (hamburger === 3 && (cola === 2 || fries === 3) && nuggets) {
-//   console.log('все довольны');
-// } else {
-//   console.log('мы уходим');
-// } 
-
-// console.log(hamburger === 3 && cola === 2 || fries === 3 && nuggets);
-
-// let jhonReport, alexReport, samReport, mariaReport = 'done';
-
-// console.log(jhonReport || alexReport || samReport || mariaReport);
-
-// let num = 50;
-//  while (num <= 55) {
-//   console.log(num);
-//   num++;
-//  }
-
-//  do {
-//   console.log(num);
-//   num++;
-//  }
-
-//  while (num < 55);
-
-//  for (let i = 1; i < 10; i++) {
-//   if (i === 6) {
-//     break;
-//   }
-//   console.log(i);
-//  }
-
-// for (let i = 0; i < 3; i++) {
-//   console.log(i);
-
-//   for (let j = 0; j < 3; j++) {
-//     console.log(j);
-//   }
-// }
-
-// let result = '';
-// const length = 9;
-
-// for (let i = 1; i < length; i++) {
-//   for (let j = 0; j < i; j++) {
-//     result += '*';
-//   }
-
-//   result += '\n';
-// }
-
-// console.log(result);
-
-
-
-first: for (let i = 0; i < 3; i++) {
-  console.log(`first level: ${i}`);
-
-  for (let j = 0; j < 3; j++) {
-    console.log(`second level: ${j}`);
-
-    for (let k = 0; k < 3; k++) {
-      if (k === 2) {
-        break first;
-      }
-
-      console.log(`third level: ${k}`);
-    }
-  }
-}
-
 
 // Место для первой задачи
 for (let i = 5; i < 11; i++) {
@@ -127,8 +24,42 @@ for(num; num < 16; num +2) {
 
 // Место пятой задачи
 
-// const arr = [];
-// for (i=5; i<10; i++) {
-//   arr[i-5] = i;
-// }
-// console.log(i);
+const arr = [];
+for (i=5; i<10; i++) {
+  arr[i-5] = i;
+}
+console.log(i);
+
+
+
+
+// QUESTIONS
+
+// Давайте перед серьезными практическими задачами потренируемся использовать циклы и условия.
+
+// Учтите, что проверка кода в таких заданиях осуществляется автоматически, через программу. Поэтому нужно четко следовать инструкции.
+
+// Вы можете сначала решить у себя в редакторе кода, а потом вставить сюда.
+
+// Все данные для решения задач мы с вами рассмотрели в предыдущих обязательных уроках. Каждая задача проверяется отдельно, но по порядку, так что вы будете получать разные уведомления при проверке.
+
+// Задачи:
+
+// При помощи цикла выведите числа от 5 до 10 в консоль. 5 и 10 включительно. Цикл можно использовать любой
+
+// При помощи цикла for вывести числа от 20 до 10 в консоль. В обратном порядке (20, 19, 18...). Когда цикл дойдет до числа 13 - остановить весь цикл
+
+// При помощи цикла for выведите чётные числа от 2 до 10 включительно
+
+// Перепишите цикл  for на вариант с while. Результат должен остаться точно таким же. Не создайте бесконечный цикл! Иначе браузер может зависнуть.
+
+//  Цикл, который нужно переписать:
+ 
+//  for (let i = 2; i <= 16; i++) {
+//      if (i % 2 === 0) {
+//          continue;
+//      } else {
+//          console.log(i);
+//      }
+//  }
+// Заполните массив цифрами от 5 до 10 включительно. Помните, что элементы массива можно сформировать так же, как и обращаться к ним: arr[0]
